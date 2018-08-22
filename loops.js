@@ -27,12 +27,10 @@ function incrementVariable(){
 
 var doWhileLoop = function(arr){
   do {
-    console.log(arr)
-    arr.splice(0,1)
-    incrementVariable()
+    arr.splice(0,1);
+    incrementVariable();
   }
-  while (arr.length > 0 && incrementVariable()){
-    return arr
-  }
+  while (arr.length > 0 && incrementVariable())
+  return arr
 }
 
