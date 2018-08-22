@@ -11,7 +11,7 @@ var forLoop = function(arr){
 }
 
 var whileLoop = function(a){
-  while (a>0){
+  while (a>=0){
     console.log(a);
     if (a ===0){
       return 'done'
