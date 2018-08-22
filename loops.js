@@ -30,15 +30,8 @@ var doWhileLoop = function(arr){
     console.log(arr)
     arr.splice(0,1)
   }
-  while (arr.length > 0 && incrementVariable){
+  while (arr.length > 0 && incrementVariable()){
     return arr
   }
 }
 
-var whileLoop = function(a){
-  while (a>0){
-    a=a-1
-    console.log(a);
-      }
-  return 'done'
-}
