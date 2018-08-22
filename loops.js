@@ -11,13 +11,14 @@ var forLoop = function(arr){
 }
 
 var whileLoop = function(a){
-  while (a>=0){
+  while (a>0){
+    a=a-1
     console.log(a);
-    if (a ===0){
-      return 'done'
-    } else {a= a-1}
-  }
+      }
+  return 'done'
 }
+
+
 
 var i = 0;
 function incrementVariable(){
