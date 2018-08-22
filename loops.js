@@ -14,7 +14,7 @@ var whileLoop = function(a){
   while (a>0){
     console.log(a);
     if (a ===0){
-      console.log('done')
+      return 'done'
     } else {a= a-1}
   }
 }
