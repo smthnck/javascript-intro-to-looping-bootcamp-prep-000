@@ -25,14 +25,7 @@ function incrementVariable(){
   i = i+1;
 }
 
-var doWhileLoop = function(arr){
-  do {
-    arr.splice(0,1);
-    incrementVariable();
-  }
-  while (arr.length > 0 && incrementVariable())
-  return arr
-}
+
 
 var doWhileLoop = function(arr){
   do {
