@@ -34,3 +34,12 @@ var doWhileLoop = function(arr){
   return arr
 }
 
+var doWhileLoop = function(arr){
+  do {
+    console.log(arr);
+    arr.splice(0,1);
+  }
+  while (arr.length > 0)
+  return arr
+}
+
